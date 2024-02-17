@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-17T11:20:53 IST" name="Suite" finished-at="2024-02-17T11:21:49 IST" duration-ms="56189">
+    <groups>
+    </groups>
+    <test started-at="2024-02-17T11:20:53 IST" name="Test" finished-at="2024-02-17T11:21:49 IST" duration-ms="56189">
+      <class name="Testcase.MakeMyTripSearch">
+        <test-method is-config="true" signature="BrowserLauch()[pri:0, instance:Testcase.MakeMyTripSearch@6b927fb]" started-at="2024-02-17T11:20:50 IST" name="BrowserLauch" finished-at="2024-02-17T11:20:53 IST" duration-ms="2867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserLauch -->
+        <test-method is-config="true" signature="ClickOnADs()[pri:0, instance:Testcase.MakeMyTripSearch@6b927fb]" started-at="2024-02-17T11:20:53 IST" name="ClickOnADs" finished-at="2024-02-17T11:21:24 IST" duration-ms="30336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnADs -->
+        <test-method is-config="true" signature="StartReport(java.lang.reflect.Method)[pri:0, instance:Testcase.MakeMyTripSearch@6b927fb]" started-at="2024-02-17T11:21:24 IST" name="StartReport" finished-at="2024-02-17T11:21:24 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testcase.MakeMyTripSearch.SearchFlightWithValidData(java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartReport -->
+        <test-method signature="SearchFlightWithValidData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcase.MakeMyTripSearch@6b927fb]" started-at="2024-02-17T11:21:24 IST" name="SearchFlightWithValidData" data-provider="GetSearchTestData" finished-at="2024-02-17T11:21:38 IST" duration-ms="14145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PNQ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MAA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[27]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchFlightWithValidData -->
+        <test-method is-config="true" signature="WriteIntoReport(org.testng.ITestResult)[pri:0, instance:Testcase.MakeMyTripSearch@6b927fb]" started-at="2024-02-17T11:21:38 IST" name="WriteIntoReport" finished-at="2024-02-17T11:21:38 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchFlightWithValidData status=SUCCESS method=MakeMyTripSearch.SearchFlightWithValidData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcase.MakeMyTripSearch@6b927fb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WriteIntoReport -->
+        <test-method is-config="true" signature="StartReport(java.lang.reflect.Method)[pri:0, instance:Testcase.MakeMyTripSearch@6b927fb]" started-at="2024-02-17T11:21:38 IST" name="StartReport" finished-at="2024-02-17T11:21:38 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testcase.MakeMyTripSearch.SearchFlightWithValidData(java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartReport -->
+        <test-method signature="SearchFlightWithValidData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcase.MakeMyTripSearch@6b927fb]" started-at="2024-02-17T11:21:38 IST" name="SearchFlightWithValidData" data-provider="GetSearchTestData" finished-at="2024-02-17T11:21:46 IST" duration-ms="8091" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MAA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PNQ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchFlightWithValidData -->
+        <test-method is-config="true" signature="WriteIntoReport(org.testng.ITestResult)[pri:0, instance:Testcase.MakeMyTripSearch@6b927fb]" started-at="2024-02-17T11:21:46 IST" name="WriteIntoReport" finished-at="2024-02-17T11:21:46 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchFlightWithValidData status=SUCCESS method=MakeMyTripSearch.SearchFlightWithValidData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcase.MakeMyTripSearch@6b927fb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WriteIntoReport -->
+        <test-method is-config="true" signature="StartReport(java.lang.reflect.Method)[pri:0, instance:Testcase.MakeMyTripSearch@6b927fb]" started-at="2024-02-17T11:21:46 IST" name="StartReport" finished-at="2024-02-17T11:21:46 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testcase.MakeMyTripSearch.SearchWithSameCityError(java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartReport -->
+        <test-method signature="SearchWithSameCityError(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Testcase.MakeMyTripSearch@6b927fb]" started-at="2024-02-17T11:21:46 IST" name="SearchWithSameCityError" data-provider="GetSearchInvalidTestData" finished-at="2024-02-17T11:21:48 IST" duration-ms="1507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PNQ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PNQ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[27]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchWithSameCityError -->
+        <test-method is-config="true" signature="WriteIntoReport(org.testng.ITestResult)[pri:0, instance:Testcase.MakeMyTripSearch@6b927fb]" started-at="2024-02-17T11:21:48 IST" name="WriteIntoReport" finished-at="2024-02-17T11:21:48 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchWithSameCityError status=SUCCESS method=MakeMyTripSearch.SearchWithSameCityError(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Testcase.MakeMyTripSearch@6b927fb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WriteIntoReport -->
+        <test-method signature="SearchWithSameCityError(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Testcase.MakeMyTripSearch@6b927fb]" started-at="2024-02-17T11:21:48 IST" name="SearchWithSameCityError" data-provider="GetSearchInvalidTestData" finished-at="2024-02-17T11:21:48 IST" duration-ms="761" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MAA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MAA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchWithSameCityError -->
+        <test-method is-config="true" signature="StartReport(java.lang.reflect.Method)[pri:0, instance:Testcase.MakeMyTripSearch@6b927fb]" started-at="2024-02-17T11:21:48 IST" name="StartReport" finished-at="2024-02-17T11:21:48 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testcase.MakeMyTripSearch.SearchWithSameCityError(java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartReport -->
+        <test-method is-config="true" signature="WriteIntoReport(org.testng.ITestResult)[pri:0, instance:Testcase.MakeMyTripSearch@6b927fb]" started-at="2024-02-17T11:21:48 IST" name="WriteIntoReport" finished-at="2024-02-17T11:21:48 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchWithSameCityError status=SUCCESS method=MakeMyTripSearch.SearchWithSameCityError(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Testcase.MakeMyTripSearch@6b927fb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WriteIntoReport -->
+        <test-method signature="SearchWithSameCityError(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Testcase.MakeMyTripSearch@6b927fb]" started-at="2024-02-17T11:21:48 IST" name="SearchWithSameCityError" data-provider="GetSearchInvalidTestData" finished-at="2024-02-17T11:21:49 IST" duration-ms="1042" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BLR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BLR]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchWithSameCityError -->
+        <test-method is-config="true" signature="StartReport(java.lang.reflect.Method)[pri:0, instance:Testcase.MakeMyTripSearch@6b927fb]" started-at="2024-02-17T11:21:48 IST" name="StartReport" finished-at="2024-02-17T11:21:48 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testcase.MakeMyTripSearch.SearchWithSameCityError(java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartReport -->
+        <test-method is-config="true" signature="WriteIntoReport(org.testng.ITestResult)[pri:0, instance:Testcase.MakeMyTripSearch@6b927fb]" started-at="2024-02-17T11:21:49 IST" name="WriteIntoReport" finished-at="2024-02-17T11:21:49 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchWithSameCityError status=SUCCESS method=MakeMyTripSearch.SearchWithSameCityError(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:Testcase.MakeMyTripSearch@6b927fb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WriteIntoReport -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:Testcase.MakeMyTripSearch@6b927fb]" started-at="2024-02-17T11:21:49 IST" name="TearDown" finished-at="2024-02-17T11:21:50 IST" duration-ms="444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Testcase.MakeMyTripSearch -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
